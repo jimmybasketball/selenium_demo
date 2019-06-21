@@ -14,6 +14,7 @@ class GoodList():
             url = url+str(gid)+','
         print(url)
         goodslist_re = requests.get(url)
+
         aa = json.loads(goodslist_re.text)
         dict_gid = {}
         try:
@@ -27,7 +28,7 @@ class GoodList():
                         label.append(j['label'])
                         dict_gid[gid]=label
         except KeyError:
-            print("接口返回参数错误")
+            print("接口返回参数错误1")
         print(dict_gid)
 
 
