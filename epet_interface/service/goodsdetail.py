@@ -3,8 +3,6 @@ import json
 class GoodsDetails(object):
     def goods_detail(self,gid):
         '''
-
-
         :param gid:
         :return: gid{gid:'优惠1','优惠2'}
         '''
@@ -19,4 +17,4 @@ class GoodsDetails(object):
         except KeyError:
             print(aa['msg'])
 
-GoodsDetails.goods_detail('aa','11062')
+GoodsDetails.goods_detail('aa','110623')
