@@ -6,3 +6,7 @@ class TestBiaoqian(object):
         pass
     def test_goodslist(self):
         GoodList.dynamic_goods_list()
+
+    def test_gooddetail(self):
+        pass
+        #todo: 测试商品详情页的标签
